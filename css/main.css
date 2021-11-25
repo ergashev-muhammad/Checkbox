@@ -1,0 +1,209 @@
+/* Simple */
+
+.dummy {
+    padding: 30px;
+}
+
+.cover {
+    object-fit: cover;
+}
+
+.dummy__heading {
+    margin-top: 0;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    border: 0;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+}
+
+.dummy__input__first:checked + .dummy__controller {
+    background-image:url(./images/table-tennis.png);
+    
+}
+
+.dummy__input__second:checked + .dummy__controller {
+    background-image:url(./images/basketball-ball.png);
+    
+}
+
+.dummy__input__third:checked + .dummy__controller {
+    background-image:url(./images/volleyball-ball.png);
+    
+}
+
+.dummy__input__fourth:checked + .dummy__controller {
+    background-image:url(./images/hockey-puck.png);
+    
+}
+
+.dummy__controller {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-position:  center center;
+    background-size: contain;
+    margin-right: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.dummy__label {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 5px;
+    font-weight: normal;
+    display: flex;
+    align-items: center;
+    justify-content: calc(100% - 500px);
+}
+
+/* Disabled */
+
+.hummy {
+    padding: 30px;
+}
+
+.cover {
+    object-fit: cover;
+}
+
+.hummy__heading {
+    margin-top: 0;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    border: 0;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+}
+
+.hummy__input__first:disabled + .hummy__controller {
+    background-color: lightgrey;
+    
+}
+
+.hummy__input__second:disabled + .hummy__controller {
+    background-color: lightgrey;
+    
+}
+
+.hummy__input__third:disabled + .hummy__controller {
+    background-color: lightgrey;
+    
+}
+
+.hummy__input__fourth:disabled + .hummy__controller {
+    background-color: lightgrey;
+    
+}
+
+.hummy__controller {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-position:  center center;
+    background-size: contain;
+    margin-right: 10px;
+    border: 2px solid black;
+    opacity: 0.7;
+    border-radius: 5px;
+}
+
+.hummy__label {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 5px;
+    font-weight: normal;
+    display: flex;
+    align-items: center;
+    justify-content: calc(100% - 500px);
+    opacity: 0.7;
+}
+
+
+/* Disabled Checked*/
+
+.gummy {
+    padding: 30px;
+}
+
+.cover {
+    object-fit: cover;
+}
+
+.gummy__heading {
+    margin-top: 0;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    border: 0;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+}
+
+.gummy__input__first:checked + .gummy__controller {
+    background-image:url(./images/table-tennis.png);
+    
+}
+
+.gummy__input__second:checked + .gummy__controller {
+    background-image:url(./images/basketball-ball.png);
+    
+}
+
+.gummy__input__third:checked + .gummy__controller {
+    background-image:url(./images/volleyball-ball.png);
+    
+}
+
+.gummy__input__fourth:checked + .gummy__controller {
+    background-image:url(./images/hockey-puck.png);
+    
+}
+
+.gummy__controller {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-position:  center center;
+    background-size: contain;
+    margin-right: 10px;
+    border: 2px solid black;
+    opacity: 0.7;
+    border-radius: 5px;
+}
+
+.gummy__label {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 5px;
+    font-weight: normal;
+    display: flex;
+    align-items: center;
+    opacity: 0.7;
+    
+    
+    
+    
+    
+}    
